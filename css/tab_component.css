@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width: 100%;
+}
+
+.tab {
+	width:300px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.tab button {
+	background-color: inherit;
+	float: left;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	border: 1px solid #000000;
+}
+
+.tab button:hover {
+  	background-color: #ddd;
+}
+
+.tab button.active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+	display: none;
+	width: 400px;
+	border: 1px solid #000000;
+	position: absolute;
+	top:60px;
+
+}

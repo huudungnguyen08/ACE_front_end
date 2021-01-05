@@ -1,0 +1,48 @@
+
+/* CSS Document */
+
+.modal{
+		display: none;
+		z-index: 1;
+		position: fixed;
+		padding-top: 100px;
+		left: 200px;
+		top: 0;
+	
+	
+	}
+.modal-content{
+	width: 300px;
+	
+}
+.header{
+	background-color: #DDDDDD;
+	
+}
+.header p{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.main p{
+	font-size: 14px;
+	margin-left: 20px;
+}
+.footer{
+	background-color: #DDDDDD;
+	height: 50px;
+	
+}
+.button{
+	margin-left: 150px;
+	padding-top: 15px;
+	border: none;
+}
+#cancel{
+	background-color: #868686;
+	border: none;
+}
+#delete{
+	background-color: #DD3436;
+	border: none;
+}
+	
